@@ -1,0 +1,111 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    font-family: Georgia, times, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background: url("images/dark-wood.jpg");
+}
+
+.wrapper {
+    background-color: white;
+    width: 940px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: #a4a4a4;
+    color: white;
+    height: 30px
+}
+
+nav ul {
+    margin-top: -7px;
+}
+
+nav li a {
+    color: white;
+}
+
+nav li a:hover,
+.current {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.courses {
+    width: 659px;
+    float: left;
+    border-right: 1px solid green;
+}
+
+figure {
+    float: left;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+.courses article {
+    overflow: auto;
+    /* woah, that's a thing? cool! this is why i take this class. yes, i have to get up at the crack of dawn, but i keep learning things i never knew.*/
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+}
+
+h2,
+h3 {
+    font-weight: normal;
+    font-family: 'lobster', cursive;
+}
+
+h3 {
+    color: blue;
+}
+/* S I D E B A R */
+aside{
+    float: left;
+    width: 203px;
+    padding-left: 20px;
+}
+aside a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+}
+aside a:hover{
+    color: yellow;
+}
+
+.contact{
+    padding-top: 30px;
+}
+/* F O O T E R */
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px
+}
